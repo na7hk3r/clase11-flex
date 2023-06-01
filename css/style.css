@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 5px;
+    padding: 10px;
 }
 
 .logo {
@@ -47,7 +47,8 @@ main {
     align-items: center;
     background-color: #e5e5e5;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 3em;
 }
 
 .envios,
@@ -58,7 +59,7 @@ main {
     justify-content: space-between;
     margin-bottom: 5em;
     margin-top: 50px;
-    width: 700px;
+    width: 800px;
 }
 
 .envios {
@@ -68,6 +69,12 @@ main {
     background-size: cover;
     text-align: center;
     padding: 2em;
+    transition: all .2s ease-in-out; 
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.envios:hover{
+    transform: scale(1.1);
 }
 
 h2 {
@@ -86,6 +93,12 @@ span {
     display: flex;
     flex-direction: column;
     padding: 2em;
+    transition: all .2s ease-in-out; 
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.podio:hover{
+    transform: scale(1.1); 
 }
 
 .ol-podio{
