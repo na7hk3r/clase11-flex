@@ -1,55 +1,109 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+    font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header{
+body {
+    margin: 0;
+    margin-bottom: 40px;
+    height: 100%;
+}
+
+header {
     background-color: #222;
     color: #f3f3f3;
     display: flex;
     justify-content: space-between;
     margin: auto;
     padding: 5px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 
 
-
-ul{
+header ul {
     list-style: none;
     display: flex;
 }
 
-li{
+header ul li {
     justify-content: space-around;
     padding: 10px;
     margin: auto;
     cursor: pointer;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     background-color: #e5e5e5;
-}
-.envios,
-.podio{
-    width:400px;
-    height:400px;
-    justify-content: center;
-    margin-top: 50px;
-}
-.envios{
-    background-image: url(/img/delivery.jpg);
-    background-repeat: no-repeat;
-}
-.podio{
-background-color: #f3f3f3;
-display: flex;
+    align-items: center;
 }
 
-footer{
+.envios,
+.podio {
+    width: 700px;
+    height: 400px;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 5em;
+    border-radius: 10px;
+}
+
+.envios {
+    background-image: url(/img/delivery.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+}
+
+h2 {
+    color: #FC200C;
+    font-weight: 700;
+    padding: 10px;
+}
+
+span {
+    color: #f3f3f3;
+}
+
+.podio {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.h2-podio{
+    text-align: center;
+    margin-right: 20px;
+}
+
+footer {
     background-color: #222;
     color: #f3f3f3;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+}
+
+li {
+    margin: auto;
+    cursor: pointer;
+    padding: 5px;
 }
