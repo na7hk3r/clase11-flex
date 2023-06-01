@@ -8,7 +8,10 @@ header{
     color: #f3f3f3;
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    padding: 5px;
 }
+
 
 
 ul{
@@ -18,6 +21,9 @@ ul{
 
 li{
     justify-content: space-around;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
 }
 
 main{
@@ -32,9 +38,13 @@ main{
     justify-content: center;
     margin-top: 50px;
 }
-
+.envios{
+    background-image: url(/img/delivery.jpg);
+    background-repeat: no-repeat;
+}
 .podio{
 background-color: #f3f3f3;
+display: flex;
 }
 
 footer{
